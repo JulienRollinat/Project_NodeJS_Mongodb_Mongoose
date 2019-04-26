@@ -1,0 +1,62 @@
+body {
+    background-color: gold;
+    font-family: 'Special Elite', cursive;
+  }
+  
+  a {
+    text-decoration: none;
+    color:rgb(217, 93, 93);
+    font-weight: 100px;
+    text-align: center;  
+    
+  }
+  
+  h1{
+      font-size: 40px;
+      display: block;
+  }
+  
+  img{
+    width: 300px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 200px auto;
+  }
+  
+  @keyframes slide1 {
+      0% {
+        transform: translate(10px);
+      }
+      50% {
+          transform: translate(-10px);
+      }
+      100% {
+          transform: translate(10px);
+      }
+  }
+  
+  @keyframes slide2 {
+      0% {
+        transform: translate(-10px);
+      }
+      50% {
+          transform: translate(10px);
+      }
+      100% {
+          transform: translate(-10px);
+      }
+  }
+  
+  #bacon1 {
+      animation: slide1 1s ease-in-out infinite;
+  }
+  
+  #bacon2 {
+    animation: slide2 1s ease-in-out infinite reverse;
+  }

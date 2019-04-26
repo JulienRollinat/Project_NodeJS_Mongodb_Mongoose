@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Charcuterie BidochEon(User)</title>
+<link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/theme.css">
+</head>
+  
+  <body>
+
+    <h1>Créer un compte</h1>
+
+    form(action='/user/submit', method='POST')
+      p
+        |          Prénom: 
+        input(name='firstname', value='', type='text')
+        |          Nom: 
+        input(name='lastname', value='', type='text')
+        |          Email: 
+        input(name='email', value='', type='text')
+        |          Mot de passe : 
+        input(name='password', value='', type='password')
+      input(value='Valider', type='submit')
+    
+    <a href="/">  <h5> Page d'accueil </h5> </a>
+
+</html>

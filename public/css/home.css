@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+.Title {
+    margin: 10px;
+    font-size: 40px;
+    color:rgb(217, 93, 93);
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 450px;
+}
